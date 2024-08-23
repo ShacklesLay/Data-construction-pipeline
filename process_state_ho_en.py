@@ -52,7 +52,7 @@ def process():
                 for message in d[:-1]:
                     for k, v in message.items():
                         if not v:
-                            v = '好的'
+                            v = ''
                         entry += k2cn[k] + ': ' + v + '\n'
                 entry += k2cn['user'] + ': ' + d[-1]['user'] + '\n'
                 entry += k2cn['state'] + ': ' + suffix
