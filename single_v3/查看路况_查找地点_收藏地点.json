@@ -1,0 +1,2702 @@
+[
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从西安到郑州的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=郑州, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到贵阳的路况，如果不拥堵，那就再用这个应用查一下学校，然后用它将找到的第二个学校收藏",
+                "state": "查看路况(目的地=贵阳, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=学校, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从福州到厦门的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=厦门, 出发地=福州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南昌到九江的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=九江, 出发地=南昌, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第二个餐厅收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第一个购物中心收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第二个咖啡馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第一个餐厅收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下酒店，然后用它将找到的第二个酒店收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到兰州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=兰州, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第一个购物中心收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下海滩，然后用它将找到的第二个海滩收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海滩, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下滑雪场，然后用它将找到的第一个滑雪场收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=滑雪场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从福州到厦门的路况，如果不拥堵，那就再用这个应用查一下寺庙，然后用它将找到的第二个寺庙收藏",
+                "state": "查看路况(目的地=厦门, 出发地=福州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=寺庙, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从郑州到开封的路况，如果不拥堵，那就再用这个应用查一下夜市，然后用它将找到的第一个夜市收藏",
+                "state": "查看路况(目的地=开封, 出发地=郑州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=夜市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下商场，然后用它将找到的第一个商场收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=商场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第二个咖啡馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第一个餐厅收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下酒店，然后用它将找到的第二个酒店收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到兰州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=兰州, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第一个电影院收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下茶馆，然后用它将找到的第二个茶馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=茶馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下滑雪场，然后用它将找到的第一个滑雪场收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=滑雪场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从福州到厦门的路况，如果不拥堵，那就再用这个应用查一下海滩，然后用它将找到的第二个海滩收藏",
+                "state": "查看路况(目的地=厦门, 出发地=福州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海滩, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南昌到九江的路况，如果不拥堵，那就再用这个应用查一下寺庙，然后用它将找到的第一个寺庙收藏",
+                "state": "查看路况(目的地=九江, 出发地=南昌, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=寺庙, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到杭州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=杭州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到苏州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=苏州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第一个购物中心收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第二个咖啡馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第一个餐厅收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下酒店，然后用它将找到的第二个酒店收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下景点，然后用它将找到的第一个景点收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=景点, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下海滩，然后用它将找到的第二个海滩收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海滩, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从郑州到开封的路况，如果不拥堵，那就再用这个应用查一下寺庙，然后用它将找到的第一个寺庙收藏",
+                "state": "查看路况(目的地=开封, 出发地=郑州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=寺庙, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南昌到九江的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第三个购物中心收藏",
+                "state": "查看路况(目的地=九江, 出发地=南昌, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从福州到厦门的路况，如果不拥堵，那就再用这个应用查一下夜市，然后用它将找到的第二个夜市收藏",
+                "state": "查看路况(目的地=厦门, 出发地=福州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=夜市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下学校，然后用它将找到的第二个学校收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=学校, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到兰州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=兰州, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第一个购物中心收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第二个咖啡馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第一个餐厅收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下酒店，然后用它将找到的第二个酒店收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到兰州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=兰州, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下景点，然后用它将找到的第一个景点收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=景点, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下海滩，然后用它将找到的第二个海滩收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海滩, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下滑雪场，然后用它将找到的第一个滑雪场收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=滑雪场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从福州到厦门的路况，如果不拥堵，那就再用这个应用查一下海鲜市场，然后用它将找到的第二个海鲜市场收藏",
+                "state": "查看路况(目的地=厦门, 出发地=福州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海鲜市场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南宁到桂林的路况，如果不拥堵，那就再用这个应用查一下古镇，然后用它将找到的第一个古镇收藏",
+                "state": "查看路况(目的地=桂林, 出发地=南宁, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=古镇, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第三个超市收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第一个咖啡馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第二个餐厅收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从郑州到开封的路况，如果不拥堵，那就再用这个应用查一下酒店，然后用它将找到的第一个酒店收藏",
+                "state": "查看路况(目的地=开封, 出发地=郑州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第二个餐厅收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到杭州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=杭州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到苏州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=苏州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第一个购物中心收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下游泳馆，然后用它将找到的第二个游泳馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=游泳馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下茶馆，然后用它将找到的第一个茶馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=茶馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下滑雪场，然后用它将找到的第二个滑雪场收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=滑雪场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第一个购物中心收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下游泳馆，然后用它将找到的第二个游泳馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=游泳馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下图书馆，然后用它将找到的第一个图书馆收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=图书馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下动物园，然后用它将找到的第二个动物园收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=动物园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第三个超市收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从郑州到开封的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第一个医院收藏",
+                "state": "查看路况(目的地=开封, 出发地=郑州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下酒吧，然后用它将找到的第二个酒吧收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒吧, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下商场，然后用它将找到的第一个商场收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=商场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第一个购物中心收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下海鲜餐厅，然后用它将找到的第三个海鲜餐厅收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海鲜餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下茶馆，然后用它将找到的第二个茶馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=茶馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下滑雪场，然后用它将找到的第一个滑雪场收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=滑雪场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从福州到厦门的路况，如果不拥堵，那就再用这个应用查一下海鲜市场，然后用它将找到的第二个海鲜市场收藏",
+                "state": "查看路况(目的地=厦门, 出发地=福州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海鲜市场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南昌到九江的路况，如果不拥堵，那就再用这个应用查一下古迹，然后用它将找到的第一个古迹收藏",
+                "state": "查看路况(目的地=九江, 出发地=南昌, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=古迹, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到上海的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第一个电影院收藏",
+                "state": "查看路况(目的地=上海, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第二个健身房收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从杭州到宁波的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=宁波, 出发地=杭州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第二个公园收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从郑州到开封的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第一个博物馆收藏",
+                "state": "查看路况(目的地=开封, 出发地=郑州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下酒吧，然后用它将找到的第三个酒吧收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒吧, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从沈阳到大连的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第二个购物中心收藏",
+                "state": "查看路况(目的地=大连, 出发地=沈阳, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到杭州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=杭州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到合肥的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=合肥, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下游泳馆，然后用它将找到的第二个游泳馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=游泳馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第一个咖啡馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第三个超市收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下游泳馆，然后用它将找到的第一个游泳馆收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=游泳馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第二个咖啡馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第一个餐厅收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第二个咖啡馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第一个餐厅收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下酒店，然后用它将找到的第二个酒店收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从福州到厦门的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=厦门, 出发地=福州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南昌到九江的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=九江, 出发地=南昌, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到杭州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=杭州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到苏州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=苏州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下商场，然后用它将找到的第一个商场收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=商场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下游泳馆，然后用它将找到的第二个游泳馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=游泳馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下图书馆，然后用它将找到的第一个图书馆收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=图书馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下动物园，然后用它将找到的第二个动物园收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=动物园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从西安到郑州的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=郑州, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到贵阳的路况，如果不拥堵，那就再用这个应用查一下学校，然后用它将找到的第二个学校收藏",
+                "state": "查看路况(目的地=贵阳, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=学校, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下景点，然后用它将找到的第一个景点收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=景点, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下商场，然后用它将找到的第二个商场收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=商场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从郑州到开封的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第一个电影院收藏",
+                "state": "查看路况(目的地=开封, 出发地=郑州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从沈阳到大连的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第三个健身房收藏",
+                "state": "查看路况(目的地=大连, 出发地=沈阳, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南昌到九江的路况，如果不拥堵，那就再用这个应用查一下图书馆，然后用它将找到的第二个图书馆收藏",
+                "state": "查看路况(目的地=九江, 出发地=南昌, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=图书馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查看从北京到天津的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=天津, 出发地=北京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从上海到苏州的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=苏州, 出发地=上海, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下购物中心，然后用它将找到的第一个购物中心收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=购物中心, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下咖啡馆，然后用它将找到的第二个咖啡馆收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=咖啡馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请查看从大连到沈阳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第一个餐厅收藏",
+                "state": "查看路况(目的地=沈阳, 出发地=大连, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下酒店，然后用它将找到的第二个酒店收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=酒店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第一个公园收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到宝鸡的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=宝鸡, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第三个餐厅收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下海滩，然后用它将找到的第一个海滩收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海滩, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下茶馆，然后用它将找到的第二个茶馆收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=茶馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下滑雪场，然后用它将找到的第一个滑雪场收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=滑雪场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从福州到厦门的路况，如果不拥堵，那就再用这个应用查一下海鲜市场，然后用它将找到的第二个海鲜市场收藏",
+                "state": "查看路况(目的地=厦门, 出发地=福州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=海鲜市场, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南昌到九江的路况，如果不拥堵，那就再用这个应用查一下古迹，然后用它将找到的第一个古迹收藏",
+                "state": "查看路况(目的地=九江, 出发地=南昌, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=古迹, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从成都到重庆的路况，如果不拥堵，那就再用这个应用查一下火锅店，然后用它将找到的第三个火锅店收藏",
+                "state": "查看路况(目的地=重庆, 出发地=成都, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=火锅店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从武汉到长沙的路况，如果不拥堵，那就再用这个应用查一下书店，然后用它将找到的第二个书店收藏",
+                "state": "查看路况(目的地=长沙, 出发地=武汉, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=书店, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从南京到杭州的路况，如果不拥堵，那就再用这个应用查一下健身房，然后用它将找到的第一个健身房收藏",
+                "state": "查看路况(目的地=杭州, 出发地=南京, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=健身房, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从西安到兰州的路况，如果不拥堵，那就再用这个应用查一下博物馆，然后用它将找到的第二个博物馆收藏",
+                "state": "查看路况(目的地=兰州, 出发地=西安, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=博物馆, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从广州到深圳的路况，如果不拥堵，那就再用这个应用查一下餐厅，然后用它将找到的第一个餐厅收藏",
+                "state": "查看路况(目的地=深圳, 出发地=广州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=餐厅, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从昆明到大理的路况，如果不拥堵，那就再用这个应用查一下公园，然后用它将找到的第三个公园收藏",
+                "state": "查看路况(目的地=大理, 出发地=昆明, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=公园, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从青岛到济南的路况，如果不拥堵，那就再用这个应用查一下电影院，然后用它将找到的第二个电影院收藏",
+                "state": "查看路况(目的地=济南, 出发地=青岛, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=电影院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从郑州到开封的路况，如果不拥堵，那就再用这个应用查一下超市，然后用它将找到的第一个超市收藏",
+                "state": "查看路况(目的地=开封, 出发地=郑州, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=超市, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请看看从哈尔滨到长春的路况，如果不拥堵，那就再用这个应用查一下医院，然后用它将找到的第二个医院收藏",
+                "state": "查看路况(目的地=长春, 出发地=哈尔滨, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=医院, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我看看从南昌到九江的路况，如果不拥堵，那就再用这个应用查一下银行，然后用它将找到的第一个银行收藏",
+                "state": "查看路况(目的地=九江, 出发地=南昌, 应用名称=None) THEN system.if(不拥堵) THEN 查找地点(目标地=银行, 应用名称=None) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=None)",
+                "assistant": null
+            }
+        ]
+    }
+]
