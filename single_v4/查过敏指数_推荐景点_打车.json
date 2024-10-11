@@ -1,0 +1,911 @@
+[
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想了解广州的过敏指数，然后推荐几个适合情侣出游的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合摄影的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道武汉的过敏指数，然后推荐几个适合徒步的景点，如果推荐成功，帮我用高德地图打车从长沙到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=长沙, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询西安的过敏指数，并推荐几个适合历史爱好者的景点，如果推荐成功，帮我用滴滴打车从郑州到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=郑州, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想了解青岛的过敏指数，然后推荐几个适合海滨游玩的景点，如果推荐成功，帮我用百度地图打车从烟台到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=烟台, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询厦门的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用滴滴打车从福州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=福州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道大连的过敏指数，然后推荐几个适合冬季游玩的景点，如果推荐成功，帮我用高德地图打车从沈阳到大连",
+                "state": "查过敏指数(城市=大连, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=大连, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=沈阳, 目的地=大连, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询昆明的过敏指数，并推荐几个适合春季游玩的景点，如果推荐成功，帮我用滴滴打车从大理到昆明",
+                "state": "查过敏指数(城市=昆明, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=昆明, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=大理, 目的地=昆明, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下广州的过敏指数，然后推荐几个适合情侣的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合摄影的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道西安的过敏指数，然后推荐几个适合徒步的景点，如果推荐成功，帮我用高德地图打车从宝鸡到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宝鸡, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用滴滴打车从黄石到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=黄石, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下长沙的过敏指数，然后推荐几个适合夜游的景点，如果推荐成功，帮我用百度地图打车从株洲到长沙",
+                "state": "查过敏指数(城市=长沙, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=长沙, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=株洲, 目的地=长沙, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询青岛的过敏指数，并推荐几个适合海滨游玩的景点，如果推荐成功，帮我用滴滴打车从烟台到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=烟台, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道厦门的过敏指数，然后推荐几个适合文艺青年的景点，如果推荐成功，帮我用高德地图打车从泉州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=泉州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询大连的过敏指数，并推荐几个适合冬季游玩的景点，如果推荐成功，帮我用滴滴打车从沈阳到大连",
+                "state": "查过敏指数(城市=大连, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=大连, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=沈阳, 目的地=大连, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想了解广州的过敏指数，然后推荐几个适合情侣出游的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合摄影的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道西安的过敏指数，然后推荐几个适合历史爱好者的景点，如果推荐成功，帮我用高德地图打车从郑州到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=郑州, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐几个适合户外活动的景点，如果推荐成功，帮我用百度地图打车从长沙到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=长沙, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想了解青岛的过敏指数，然后推荐几个适合海滨游玩的景点，如果推荐成功，帮我用滴滴打车从济南到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=济南, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询大连的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用高德地图打车从沈阳到大连",
+                "state": "查过敏指数(城市=大连, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=大连, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=沈阳, 目的地=大连, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道厦门的过敏指数，然后推荐几个适合文艺青年的景点，如果推荐成功，帮我用百度地图打车从福州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=福州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询昆明的过敏指数，并推荐几个适合自然风光的景点，如果推荐成功，帮我用滴滴打车从大理到昆明",
+                "state": "查过敏指数(城市=昆明, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=昆明, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=大理, 目的地=昆明, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下广州的过敏指数，然后推荐几个适合情侣的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合摄影的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道西安的过敏指数，然后推荐几个适合徒步的景点，如果推荐成功，帮我用高德地图打车从宝鸡到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宝鸡, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用滴滴打车从黄石到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=黄石, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下长沙的过敏指数，然后推荐几个适合夜游的景点，如果推荐成功，帮我用百度地图打车从株洲到长沙",
+                "state": "查过敏指数(城市=长沙, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=长沙, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=株洲, 目的地=长沙, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询青岛的过敏指数，并推荐几个适合海滨游玩的景点，如果推荐成功，帮我用滴滴打车从烟台到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=烟台, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道厦门的过敏指数，然后推荐几个适合文艺青年的景点，如果推荐成功，帮我用高德地图打车从泉州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=泉州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询大连的过敏指数，并推荐几个适合冬季游玩的景点，如果推荐成功，帮我用滴滴打车从沈阳到大连",
+                "state": "查过敏指数(城市=大连, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=大连, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=沈阳, 目的地=大连, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下广州的过敏指数，然后推荐几个适合情侣出游的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合摄影的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道西安的过敏指数，然后推荐几个适合徒步的景点，如果推荐成功，帮我用高德地图打车从宝鸡到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宝鸡, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用滴滴打车从黄石到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=黄石, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下长沙的过敏指数，然后推荐几个适合夜游的景点，如果推荐成功，帮我用百度地图打车从株洲到长沙",
+                "state": "查过敏指数(城市=长沙, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=长沙, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=株洲, 目的地=长沙, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询青岛的过敏指数，并推荐几个适合海滨游玩的景点，如果推荐成功，帮我用滴滴打车从烟台到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=烟台, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道厦门的过敏指数，然后推荐几个适合文艺青年的景点，如果推荐成功，帮我用高德地图打车从泉州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=泉州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询大连的过敏指数，并推荐几个适合冬季游玩的景点，如果推荐成功，帮我用滴滴打车从沈阳到大连",
+                "state": "查过敏指数(城市=大连, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=大连, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=沈阳, 目的地=大连, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐一些适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下广州的过敏指数，然后推荐几个适合情侣的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐一些适合摄影的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道西安的过敏指数，然后推荐几个适合徒步的景点，如果推荐成功，帮我用高德地图打车从宝鸡到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宝鸡, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐一些适合亲子游的景点，如果推荐成功，帮我用滴滴打车从长沙到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=长沙, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下青岛的过敏指数，然后推荐几个适合海滨游玩的景点，如果推荐成功，帮我用百度地图打车从烟台到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=烟台, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询厦门的过敏指数，并推荐一些适合文艺青年的景点，如果推荐成功，帮我用滴滴打车从福州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=福州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道杭州的过敏指数，然后推荐几个适合夜游的景点，如果推荐成功，帮我用高德地图打车从宁波到杭州",
+                "state": "查过敏指数(城市=杭州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=杭州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宁波, 目的地=杭州, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询深圳的过敏指数，并推荐一些适合购物的景点，如果推荐成功，帮我用滴滴打车从广州到深圳",
+                "state": "查过敏指数(城市=深圳, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=深圳, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=广州, 目的地=深圳, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下广州的过敏指数，然后推荐几个适合情侣的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合摄影的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道西安的过敏指数，然后推荐几个适合徒步的景点，如果推荐成功，帮我用高德地图打车从宝鸡到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宝鸡, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用滴滴打车从长沙到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=长沙, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下青岛的过敏指数，然后推荐几个适合海滨游玩的景点，如果推荐成功，帮我用百度地图打车从烟台到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=烟台, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询厦门的过敏指数，并推荐几个适合文艺青年的景点，如果推荐成功，帮我用滴滴打车从福州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=福州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道杭州的过敏指数，然后推荐几个适合夜游的景点，如果推荐成功，帮我用高德地图打车从宁波到杭州",
+                "state": "查过敏指数(城市=杭州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=杭州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宁波, 目的地=杭州, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询深圳的过敏指数，并推荐几个适合购物的景点，如果推荐成功，帮我用滴滴打车从广州到深圳",
+                "state": "查过敏指数(城市=深圳, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=深圳, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=广州, 目的地=深圳, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下广州的过敏指数，然后推荐几个适合情侣出游的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合摄影的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道西安的过敏指数，然后推荐几个适合徒步的景点，如果推荐成功，帮我用高德地图打车从宝鸡到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宝鸡, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用滴滴打车从长沙到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=长沙, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下杭州的过敏指数，然后推荐几个适合文艺青年的景点，如果推荐成功，帮我用百度地图打车从宁波到杭州",
+                "state": "查过敏指数(城市=杭州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=杭州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宁波, 目的地=杭州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询青岛的过敏指数，并推荐几个适合海滨度假的景点，如果推荐成功，帮我用滴滴打车从烟台到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=烟台, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道厦门的过敏指数，然后推荐几个适合休闲度假的景点，如果推荐成功，帮我用高德地图打车从福州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=福州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询大连的过敏指数，并推荐几个适合冬季游玩的景点，如果推荐成功，帮我用滴滴打车从沈阳到大连",
+                "state": "查过敏指数(城市=大连, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=大连, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=沈阳, 目的地=大连, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果景点推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下广州的过敏指数，然后推荐几个适合情侣出游的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道深圳的过敏指数，然后推荐几个适合摄影的景点，如果推荐成功，帮我用高德地图打车从广州到深圳",
+                "state": "查过敏指数(城市=深圳, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=深圳, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=广州, 目的地=深圳, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐几个适合徒步的景点，如果推荐成功，帮我用百度地图打车从长沙到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=长沙, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下西安的过敏指数，然后推荐几个适合历史爱好者的景点，如果推荐成功，帮我用滴滴打车从郑州到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=郑州, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询青岛的过敏指数，并推荐几个适合海滨度假的景点，如果推荐成功，帮我用高德地图打车从济南到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=济南, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道厦门的过敏指数，然后推荐几个适合文艺青年的景点，如果推荐成功，帮我用百度地图打车从福州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=福州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询大连的过敏指数，并推荐几个适合冬季游玩的景点，如果推荐成功，帮我用滴滴打车从沈阳到大连",
+                "state": "查过敏指数(城市=大连, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=大连, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=沈阳, 目的地=大连, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道北京的过敏指数，然后推荐几个适合周末游玩的景点，如果推荐成功，帮我用高德地图打车从天津到北京",
+                "state": "查过敏指数(城市=北京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=北京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=天津, 目的地=北京, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询上海的过敏指数，并推荐几个适合家庭出游的景点，如果推荐成功，帮我用滴滴打车从杭州到上海",
+                "state": "查过敏指数(城市=上海, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=上海, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=杭州, 目的地=上海, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下广州的过敏指数，然后推荐几个适合情侣出游的景点，如果推荐成功，帮我用百度地图打车从深圳到广州",
+                "state": "查过敏指数(城市=广州, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=广州, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=深圳, 目的地=广州, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询成都的过敏指数，并推荐几个适合亲子游的景点，如果推荐成功，帮我用滴滴打车从重庆到成都",
+                "state": "查过敏指数(城市=成都, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=成都, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=重庆, 目的地=成都, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道西安的过敏指数，然后推荐几个适合摄影的景点，如果推荐成功，帮我用高德地图打车从宝鸡到西安",
+                "state": "查过敏指数(城市=西安, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=西安, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=宝鸡, 目的地=西安, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询武汉的过敏指数，并推荐几个适合徒步的景点，如果推荐成功，帮我用百度地图打车从黄石到武汉",
+                "state": "查过敏指数(城市=武汉, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=武汉, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=黄石, 目的地=武汉, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下长沙的过敏指数，然后推荐几个适合夜游的景点，如果推荐成功，帮我用滴滴打车从株洲到长沙",
+                "state": "查过敏指数(城市=长沙, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=长沙, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=株洲, 目的地=长沙, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询青岛的过敏指数，并推荐几个适合海滨游玩的景点，如果推荐成功，帮我用高德地图打车从烟台到青岛",
+                "state": "查过敏指数(城市=青岛, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=青岛, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=烟台, 目的地=青岛, 出租车类型=None, 出租车描述=None, 应用名称=高德地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想知道厦门的过敏指数，然后推荐几个适合文艺青年的景点，如果推荐成功，帮我用百度地图打车从泉州到厦门",
+                "state": "查过敏指数(城市=厦门, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=厦门, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=泉州, 目的地=厦门, 出租车类型=None, 出租车描述=None, 应用名称=百度地图, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询大连的过敏指数，并推荐几个适合冬季游玩的景点，如果推荐成功，帮我用滴滴打车从沈阳到大连",
+                "state": "查过敏指数(城市=大连, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=大连, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=沈阳, 目的地=大连, 出租车类型=None, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查询一下南京的过敏指数，并且帮我推荐一下那里的景点，如果景点推荐成功，帮我在滴滴打车上打一辆从苏州到那里的出租",
+                "state": "查过敏指数(城市=南京, 国家=None, 县=None, 区=None, 省份=None, 景点=None, 时间=None) AND 推荐景点(地点=南京, 应用名称=None) THEN system.if (景点推荐成功) THEN 打车(出发地=苏州, 目的地=南京, 出租车类型=出租, 出租车描述=None, 应用名称=滴滴打车, 道路类型=None, 途经点=None)",
+                "assistant": null
+            }
+        ]
+    }
+]

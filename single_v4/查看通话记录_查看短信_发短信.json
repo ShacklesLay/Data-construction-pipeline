@@ -1,0 +1,911 @@
+[
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看一下联系人张三的短信内容，最后把张三的短信内容发给李四",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张三) THEN 发短信(联系人=李四, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王五的短信内容，最后把王五的短信内容发给赵六",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王五) THEN 发短信(联系人=赵六, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李华的短信内容，最后把李华的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人陈明的短信内容，最后把陈明的短信内容发给刘洋",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈明) THEN 发短信(联系人=刘洋, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下最近三天的通话记录，然后查看联系人赵敏的短信内容，最后把赵敏的短信内容发给王强",
+                "state": "查看通话记录(时间范围=最近三天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=王强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上星期的通话记录，然后查看联系人周涛的短信内容，最后把周涛的短信内容发给吴磊",
+                "state": "查看通话记录(时间范围=上星期) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=周涛) THEN 发短信(联系人=吴磊, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上个月的通话记录，然后查看联系人孙丽的短信内容，最后把孙丽的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=孙丽) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看联系人王刚的短信内容，最后把王刚的短信内容发给张丽",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王刚) THEN 发短信(联系人=张丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下昨天的通话记录，然后查看联系人刘强的短信内容，最后把刘强的短信内容发给陈静",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=刘强) THEN 发短信(联系人=陈静, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人李明的短信内容，最后把李明的短信内容发给王芳",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李明) THEN 发短信(联系人=王芳, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上周的通话记录，然后查看一下联系人张伟的短信，最后把张伟的短信内容发给李明",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张伟) THEN 发短信(联系人=李明, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王芳的短信内容，最后把王芳的短信内容发给张强",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王芳) THEN 发短信(联系人=张强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下今天的通话记录，然后查看联系人李华的短信内容，最后把李华的短信内容发给王丽",
+                "state": "查看通话记录(时间范围=今天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=王丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人赵敏的短信内容，最后把赵敏的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人陈静的短信内容，最后把陈静的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈静) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看昨天的通话记录，然后查看联系人刘洋的短信内容，最后把刘洋的短信内容发给王芳",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=刘洋) THEN 发短信(联系人=王芳, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下今天的通话记录，然后查看联系人张强的短信内容，最后把张强的短信内容发给李华",
+                "state": "查看通话记录(时间范围=今天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张强) THEN 发短信(联系人=李华, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人王丽的短信内容，最后把王丽的短信内容发给赵敏",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王丽) THEN 发短信(联系人=赵敏, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李娜的短信内容，最后把李娜的短信内容发给陈静",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李娜) THEN 发短信(联系人=陈静, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看昨天的通话记录，然后查看联系人王芳的短信内容，最后把王芳的短信内容发给刘洋",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王芳) THEN 发短信(联系人=刘洋, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看一下联系人张三的短信内容，最后把张三的短信内容发给李四",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张三) THEN 发短信(联系人=李四, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王五的短信内容，最后把王五的短信内容发给赵六",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王五) THEN 发短信(联系人=赵六, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李华的短信内容，最后把李华的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人陈明的短信内容，最后把陈明的短信内容发给刘洋",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈明) THEN 发短信(联系人=刘洋, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下最近三天的通话记录，然后看看联系人赵敏的短信内容，最后把赵敏的短信内容发给张强",
+                "state": "查看通话记录(时间范围=最近三天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=张强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上星期的通话记录，然后查看联系人王丽的短信内容，最后把王丽的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=上星期) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王丽) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人张伟的短信内容，最后把张伟的短信内容发给王芳",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张伟) THEN 发短信(联系人=王芳, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下最近一周的通话记录，然后看看联系人李娜的短信内容，最后把李娜的短信内容发给张强",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李娜) THEN 发短信(联系人=张强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下昨天的通话记录，然后查看联系人王芳的短信内容，最后把王芳的短信内容发给李华",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王芳) THEN 发短信(联系人=李华, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上星期的通话记录，然后查看联系人张强的短信内容，最后把张强的短信内容发给王丽",
+                "state": "查看通话记录(时间范围=上星期) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张强) THEN 发短信(联系人=王丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看一下联系人张三的短信内容，最后把张三的短信内容发给李四",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张三) THEN 发短信(联系人=李四, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王五的短信内容，最后把王五的短信内容发给赵六",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王五) THEN 发短信(联系人=赵六, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李华的短信内容，最后把李华的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人陈明的短信内容，最后把陈明的短信内容发给王芳",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈明) THEN 发短信(联系人=王芳, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下最近三天的通话记录，然后查看联系人刘强的短信内容，最后把刘强的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=最近三天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=刘强) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下上星期的通话记录，然后看看联系人赵敏的短信内容，最后把赵敏的短信内容发给张强",
+                "state": "查看通话记录(时间范围=上星期) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=张强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上个月的通话记录，然后查看联系人李明的短信内容，最后把李明的短信内容发给王丽",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李明) THEN 发短信(联系人=王丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看联系人张伟的短信内容，最后把张伟的短信内容发给李华",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张伟) THEN 发短信(联系人=李华, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王芳的短信内容，最后把王芳的短信内容发给陈明",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王芳) THEN 发短信(联系人=陈明, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李娜的短信内容，最后把李娜的短信内容发给刘强",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李娜) THEN 发短信(联系人=刘强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看一下昨天和刘总的短信内容，最后把刘总的短信内容发给张经理。",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=刘总) THEN 发短信(联系人=张经理, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下上周的通话记录，然后看看和陈总的短信内容，最后把陈总的短信内容发给李秘书。",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈总) THEN 发短信(联系人=李秘书, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下今天的通话记录，然后看看和赵总的短信内容，最后把赵总的短信内容发给王助理。",
+                "state": "查看通话记录(时间范围=今天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵总) THEN 发短信(联系人=王助理, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看一下和孙总的短信内容，最后把孙总的短信内容发给刘秘书。",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=孙总) THEN 发短信(联系人=刘秘书, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看和周总的短信内容，最后把周总的短信内容发给吴秘书。",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=周总) THEN 发短信(联系人=吴秘书, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后看看和钱总的短信内容，最后把钱总的短信内容发给郑秘书。",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=钱总) THEN 发短信(联系人=郑秘书, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看一下和吴总的短信内容，最后把吴总的短信内容发给孙秘书。",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=吴总) THEN 发短信(联系人=孙秘书, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看和郑总的短信内容，最后把郑总的短信内容发给钱秘书。",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=郑总) THEN 发短信(联系人=钱秘书, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下今天的通话记录，然后看看和孙总的短信内容，最后把孙总的短信内容发给周秘书。",
+                "state": "查看通话记录(时间范围=今天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=孙总) THEN 发短信(联系人=周秘书, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上周的通话记录，然后查看一下和钱总的短信内容，最后把钱总的短信内容发给吴秘书。",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=钱总) THEN 发短信(联系人=吴秘书, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看一下联系人张三的短信内容，最后把张三的短信内容发给李四",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张三) THEN 发短信(联系人=李四, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天和今天所有的通话记录，然后查看联系人王五的短信内容，最后把王五的短信内容发给赵六",
+                "state": "查看通话记录(时间范围=昨天和今天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王五) THEN 发短信(联系人=赵六, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李华的短信内容，最后把李华的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人陈明的短信内容，最后把陈明的短信内容发给刘洋",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈明) THEN 发短信(联系人=刘洋, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下最近三天的通话记录，然后查看联系人赵敏的短信内容，最后把赵敏的短信内容发给王强",
+                "state": "查看通话记录(时间范围=最近三天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=王强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上上周的通话记录，然后查看联系人周涛的短信内容，最后把周涛的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=上上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=周涛) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上上个月的通话记录，然后查看联系人吴磊的短信内容，最后把吴磊的短信内容发给张丽",
+                "state": "查看通话记录(时间范围=上上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=吴磊) THEN 发短信(联系人=张丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一个月的通话记录，然后查看联系人孙燕的短信内容，最后把孙燕的短信内容发给王刚",
+                "state": "查看通话记录(时间范围=最近一个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=孙燕) THEN 发短信(联系人=王刚, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下最近两周的通话记录，然后查看联系人刘洋的短信内容，最后把刘洋的短信内容发给陈静",
+                "state": "查看通话记录(时间范围=最近两周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=刘洋) THEN 发短信(联系人=陈静, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近五天的通话记录，然后查看联系人张伟的短信内容，最后把张伟的短信内容发给李强",
+                "state": "查看通话记录(时间范围=最近五天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张伟) THEN 发短信(联系人=李强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上周的通话记录，然后查看一下联系人张伟的短信，最后把张伟的短信内容发给李明",
+                "state": "查看通话记录(时间=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张伟) THEN 发短信(联系人=李明, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王芳的短信内容，最后把王芳的短信内容发给张强",
+                "state": "查看通话记录(时间=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王芳) THEN 发短信(联系人=张强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下今天的通话记录，然后查看联系人李华的短信内容，最后把李华的短信内容发给王丽",
+                "state": "查看通话记录(时间=今天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=王丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人赵敏的短信内容，最后把赵敏的短信内容发给张伟",
+                "state": "查看通话记录(时间=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下上周的通话记录，然后看看联系人刘洋的短信内容，最后把刘洋的短信内容发给李娜",
+                "state": "查看通话记录(时间=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=刘洋) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下昨天的通话记录，然后查看联系人陈静的短信内容，最后把陈静的短信内容发给王强",
+                "state": "查看通话记录(时间=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈静) THEN 发短信(联系人=王强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看今天的通话记录，然后查看联系人张磊的短信内容，最后把张磊的短信内容发给李华",
+                "state": "查看通话记录(时间=今天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张磊) THEN 发短信(联系人=李华, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下上个月的通话记录，然后看看联系人王丽的短信内容，最后把王丽的短信内容发给张敏",
+                "state": "查看通话记录(时间=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王丽) THEN 发短信(联系人=张敏, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李明的短信内容，最后把李明的短信内容发给王芳",
+                "state": "查看通话记录(时间=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李明) THEN 发短信(联系人=王芳, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看昨天的通话记录，然后查看联系人张强的短信内容，最后把张强的短信内容发给李娜",
+                "state": "查看通话记录(时间=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张强) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看一下联系人张三的短信内容，最后把张三的短信内容发给李四",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张三) THEN 发短信(联系人=李四, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王五的短信内容，最后把王五的短信内容发给赵六",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王五) THEN 发短信(联系人=赵六, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李华的短信内容，最后把李华的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人陈明的短信内容，最后把陈明的短信内容发给王芳",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈明) THEN 发短信(联系人=王芳, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下最近三天的通话记录，然后看看联系人刘强的短信内容，最后把刘强的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=最近三天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=刘强) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上星期的通话记录，然后查看联系人赵敏的短信内容，最后把赵敏的短信内容发给张强",
+                "state": "查看通话记录(时间范围=上星期) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=张强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人李明的短信内容，最后把李明的短信内容发给王丽",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李明) THEN 发短信(联系人=王丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下最近一周的通话记录，然后看看联系人张伟的短信内容，最后把张伟的短信内容发给李华",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张伟) THEN 发短信(联系人=李华, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下昨天的通话记录，然后查看联系人王芳的短信内容，最后把王芳的短信内容发给陈明",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王芳) THEN 发短信(联系人=陈明, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近三天的通话记录，然后查看联系人李娜的短信内容，最后把李娜的短信内容发给刘强",
+                "state": "查看通话记录(时间范围=最近三天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李娜) THEN 发短信(联系人=刘强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看一下联系人张三的短信内容，最后把张三的短信内容发给李四",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张三) THEN 发短信(联系人=李四, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王五的短信内容，最后把王五的短信内容发给赵六",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王五) THEN 发短信(联系人=赵六, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后查看联系人李华的短信内容，最后把李华的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人陈明的短信内容，最后把陈明的短信内容发给刘洋",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈明) THEN 发短信(联系人=刘洋, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下最近三天的通话记录，然后看看联系人赵敏的短信内容，最后把赵敏的短信内容发给张强",
+                "state": "查看通话记录(时间范围=最近三天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=张强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上星期的通话记录，然后查看联系人王丽的短信内容，最后把王丽的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=上星期) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王丽) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人张伟的短信内容，最后把张伟的短信内容发给王芳",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张伟) THEN 发短信(联系人=王芳, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下最近一周的通话记录，然后看看联系人李明的短信内容，最后把李明的短信内容发给张丽",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李明) THEN 发短信(联系人=张丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下昨天的通话记录，然后查看联系人王强的短信内容，最后把王强的短信内容发给李华",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王强) THEN 发短信(联系人=李华, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看联系人张丽的短信内容，最后把张丽的短信内容发给王伟",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张丽) THEN 发短信(联系人=王伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看最近一周的通话记录，然后查看一下联系人张伟的短信，最后把他的短信内容发给李明",
+                "state": "查看通话记录(时间范围=最近一周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张伟) THEN 发短信(联系人=李明, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王芳的短信内容，最后把她的短信内容发给张强",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王芳) THEN 发短信(联系人=张强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后看看联系人李华的短信内容，最后把他的短信内容发给王丽",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李华) THEN 发短信(联系人=王丽, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看一下联系人赵敏的短信内容，最后把她的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵敏) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人刘洋的短信内容，最后把他的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=刘洋) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后看看联系人陈静的短信内容，最后把她的短信内容发给王强",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=陈静) THEN 发短信(联系人=王强, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看一下联系人张磊的短信内容，最后把他的短信内容发给李华",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=张磊) THEN 发短信(联系人=李华, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下昨天的通话记录，然后看看联系人王丽的短信内容，最后把她的短信内容发给张伟",
+                "state": "查看通话记录(时间范围=昨天) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=王丽) THEN 发短信(联系人=张伟, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查看一下上周的通话记录，然后看看联系人李明的短信内容，最后把他的短信内容发给王芳",
+                "state": "查看通话记录(时间范围=上周) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=李明) THEN 发短信(联系人=王芳, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想看看上个月的通话记录，然后查看一下联系人赵磊的短信内容，最后把他的短信内容发给李娜",
+                "state": "查看通话记录(时间范围=上个月) THEN 查看短信(内容=None, 电话号码=[ToFill], 联系人=赵磊) THEN 发短信(联系人=李娜, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "打开查看一下我的通话记录，再查看一下第一个电话号码联系人辉辉的短信内容你那天家李总微信了吗，然后再把辉辉的短信内容发给王朝婧",
+                "state": "查看通话记录() THEN 查看短信(内容=你那天家李总微信了吗, 电话号码=[ToFill], 联系人=) THEN 发短信(联系人=王朝婧, 内容=[ToFill], 电话号码=None, 黄页=None, 名片=None)",
+                "assistant": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,885 @@
+[
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从青岛飞到大连，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=大连, 出发城市=青岛, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从昆明飞往贵阳的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=贵阳, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从哈尔滨飞到沈阳，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=沈阳, 出发城市=哈尔滨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从郑州飞往济南的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=济南, 出发城市=郑州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=济南, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=济南, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从福州飞到海口，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=海口, 出发城市=福州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=海口, 出发时间=None, 出发地=福州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=海口, 出发时间=None, 出发地=福州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从南宁飞往南昌的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南昌, 出发城市=南宁, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南昌, 出发时间=None, 出发地=南宁, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南昌, 出发时间=None, 出发地=南宁, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从兰州飞到西宁，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=西宁, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从银川飞往乌鲁木齐的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=乌鲁木齐, 出发城市=银川, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=银川, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=银川, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从武汉飞到长沙，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从青岛飞往大连的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=大连, 出发城市=青岛, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从昆明飞到贵阳，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=贵阳, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从沈阳飞往哈尔滨的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=哈尔滨, 出发城市=沈阳, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=哈尔滨, 出发时间=None, 出发地=沈阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=哈尔滨, 出发时间=None, 出发地=沈阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从郑州飞到石家庄，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=石家庄, 出发城市=郑州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=石家庄, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=石家庄, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从济南飞往太原的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=太原, 出发城市=济南, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=太原, 出发时间=None, 出发地=济南, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=太原, 出发时间=None, 出发地=济南, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从兰州飞到西宁，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=西宁, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从海口飞往三亚的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=三亚, 出发城市=海口, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=三亚, 出发时间=None, 出发地=海口, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=三亚, 出发时间=None, 出发地=海口, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从银川飞到呼和浩特，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=呼和浩特, 出发城市=银川, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=呼和浩特, 出发时间=None, 出发地=银川, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=呼和浩特, 出发时间=None, 出发地=银川, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从昆明飞到海口，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=海口, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从大连飞往青岛的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=青岛, 出发城市=大连, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从贵阳飞到南宁，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南宁, 出发城市=贵阳, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从哈尔滨飞往沈阳的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=沈阳, 出发城市=哈尔滨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从兰州飞到西宁，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=西宁, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从呼和浩特飞往银川的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=银川, 出发城市=呼和浩特, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=银川, 出发时间=None, 出发地=呼和浩特, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=银川, 出发时间=None, 出发地=呼和浩特, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从乌鲁木齐飞到拉萨，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=拉萨, 出发城市=乌鲁木齐, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=拉萨, 出发时间=None, 出发地=乌鲁木齐, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=拉萨, 出发时间=None, 出发地=乌鲁木齐, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从石家庄飞往太原的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=太原, 出发城市=石家庄, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=太原, 出发时间=None, 出发地=石家庄, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=太原, 出发时间=None, 出发地=石家庄, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从昆明飞到海口，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=海口, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从大连飞往青岛的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=青岛, 出发城市=大连, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从贵阳飞到南宁，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南宁, 出发城市=贵阳, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从哈尔滨飞往沈阳的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=沈阳, 出发城市=哈尔滨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从兰州飞到西宁，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=西宁, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从银川飞往呼和浩特的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=呼和浩特, 出发城市=银川, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=呼和浩特, 出发时间=None, 出发地=银川, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=呼和浩特, 出发时间=None, 出发地=银川, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从拉萨飞到乌鲁木齐，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=乌鲁木齐, 出发城市=拉萨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=拉萨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=拉萨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从海口飞往三亚的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=三亚, 出发城市=海口, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=三亚, 出发时间=None, 出发地=海口, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=三亚, 出发时间=None, 出发地=海口, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从青岛飞到大连，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=大连, 出发城市=青岛, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从昆明飞往贵阳的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=贵阳, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从哈尔滨飞到沈阳，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=沈阳, 出发城市=哈尔滨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从郑州飞往济南的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=济南, 出发城市=郑州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=济南, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=济南, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从福州飞到南昌，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南昌, 出发城市=福州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南昌, 出发时间=None, 出发地=福州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南昌, 出发时间=None, 出发地=福州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从石家庄飞往太原的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=太原, 出发城市=石家庄, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=太原, 出发时间=None, 出发地=石家庄, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=太原, 出发时间=None, 出发地=石家庄, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从兰州飞到西宁，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=西宁, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从银川飞往乌鲁木齐的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=乌鲁木齐, 出发城市=银川, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=银川, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=银川, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从昆明飞到海口，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=海口, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从大连飞往青岛的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=青岛, 出发城市=大连, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从贵阳飞到南宁，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南宁, 出发城市=贵阳, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从兰州飞往乌鲁木齐的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=乌鲁木齐, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从哈尔滨飞往沈阳的航班，并预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=沈阳, 出发城市=哈尔滨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从石家庄飞到太原，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=太原, 出发城市=石家庄, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=太原, 出发时间=None, 出发地=石家庄, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=太原, 出发时间=None, 出发地=石家庄, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从呼和浩特飞往银川的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=银川, 出发城市=呼和浩特, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=银川, 出发时间=None, 出发地=呼和浩特, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=银川, 出发时间=None, 出发地=呼和浩特, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从西宁飞到拉萨，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=拉萨, 出发城市=西宁, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=拉萨, 出发时间=None, 出发地=西宁, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=拉萨, 出发时间=None, 出发地=西宁, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从青岛飞到大连，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=大连, 出发城市=青岛, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从昆明飞往贵阳的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=贵阳, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从沈阳飞到哈尔滨，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=哈尔滨, 出发城市=沈阳, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=哈尔滨, 出发时间=None, 出发地=沈阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=哈尔滨, 出发时间=None, 出发地=沈阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从福州飞往厦门的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=厦门, 出发城市=福州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=厦门, 出发时间=None, 出发地=福州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=厦门, 出发时间=None, 出发地=福州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从郑州飞往济南的航班，并预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=济南, 出发城市=郑州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=济南, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=济南, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从南宁飞到海口，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=海口, 出发城市=南宁, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=海口, 出发时间=None, 出发地=南宁, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=海口, 出发时间=None, 出发地=南宁, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从兰州飞往西宁的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=西宁, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从太原飞到石家庄，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=石家庄, 出发城市=太原, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=石家庄, 出发时间=None, 出发地=太原, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=石家庄, 出发时间=None, 出发地=太原, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从昆明飞到海口，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=海口, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从大连飞往青岛的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=青岛, 出发城市=大连, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从贵阳飞到南宁，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南宁, 出发城市=贵阳, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从哈尔滨飞往沈阳的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=沈阳, 出发城市=哈尔滨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从石家庄飞到太原，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=太原, 出发城市=石家庄, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=太原, 出发时间=None, 出发地=石家庄, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=太原, 出发时间=None, 出发地=石家庄, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从济南飞往郑州的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=郑州, 出发城市=济南, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=郑州, 出发时间=None, 出发地=济南, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=郑州, 出发时间=None, 出发地=济南, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从兰州飞到银川，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=银川, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=银川, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=银川, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从呼和浩特飞往西宁的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=西宁, 出发城市=呼和浩特, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=西宁, 出发时间=None, 出发地=呼和浩特, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=西宁, 出发时间=None, 出发地=呼和浩特, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从青岛飞到大连，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=大连, 出发城市=青岛, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=大连, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从昆明飞往贵阳的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=贵阳, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从哈尔滨飞到沈阳，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=沈阳, 出发城市=哈尔滨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=沈阳, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从郑州飞往济南的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=济南, 出发城市=郑州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=济南, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=济南, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从福州飞到南昌，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南昌, 出发城市=福州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南昌, 出发时间=None, 出发地=福州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南昌, 出发时间=None, 出发地=福州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从太原飞往石家庄的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=石家庄, 出发城市=太原, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=石家庄, 出发时间=None, 出发地=太原, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=石家庄, 出发时间=None, 出发地=太原, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从海口飞到三亚，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=三亚, 出发城市=海口, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=三亚, 出发时间=None, 出发地=海口, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=三亚, 出发时间=None, 出发地=海口, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从兰州飞往西宁的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=西宁, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=西宁, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从成都飞往深圳的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=深圳, 出发城市=成都, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=深圳, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从武汉飞往长沙的航班，并预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从昆明飞到海口，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=海口, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=海口, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从大连飞往青岛的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=青岛, 出发城市=大连, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=青岛, 出发时间=None, 出发地=大连, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从哈尔滨飞到三亚，帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=三亚, 出发城市=哈尔滨, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=三亚, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=三亚, 出发时间=None, 出发地=哈尔滨, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从郑州飞往厦门的航班，并帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=厦门, 出发城市=郑州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=厦门, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=厦门, 出发时间=None, 出发地=郑州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从沈阳飞往南京的航班，并预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南京, 出发城市=沈阳, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南京, 出发时间=None, 出发地=沈阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南京, 出发时间=None, 出发地=沈阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从济南飞到福州，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=福州, 出发城市=济南, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=福州, 出发时间=None, 出发地=济南, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=福州, 出发时间=None, 出发地=济南, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询一下从兰州飞往乌鲁木齐的航班，并帮我预定下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=乌鲁木齐, 出发城市=兰州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=乌鲁木齐, 出发时间=None, 出发地=兰州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从贵阳飞到南宁，帮我预定下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=南宁, 出发城市=贵阳, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=南宁, 出发时间=None, 出发地=贵阳, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询西安飞北京的所有航班，根据上面查询的航班号在帮我预定第一个航班机票还有航班的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=北京, 出发城市=西安, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=北京, 出发时间=None, 出发地=西安, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=北京, 出发时间=None, 出发地=西安, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从遵义飞到吉林，帮我预定一下明天或者后天的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=遵义, 出发城市=吉林, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=遵义, 出发时间=None, 出发地=吉林, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=遵义, 出发时间=None, 出发地=吉林, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从南京飞到重庆，帮我预定周五和周三的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=重庆, 出发城市=南京, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=南京, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=重庆, 出发时间=None, 出发地=南京, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "我想从昆明飞到贵阳，帮我预定下周三和下周六的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=贵阳, 出发城市=昆明, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=贵阳, 出发时间=None, 出发地=昆明, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "看一下崇左到大理的机票，然后帮我预定一张周五和周一的",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=大理, 出发城市=崇左, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=大理, 出发时间=None, 出发地=崇左, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=大理, 出发时间=None, 出发地=崇左, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "看一下从上海飞往广州的机票，并帮我预定明天和后天的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=广州, 出发城市=上海, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=广州, 出发时间=None, 出发地=上海, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=广州, 出发时间=None, 出发地=上海, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "看一下从杭州飞往厦门的飞机票，并帮我预定一张下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=厦门, 出发城市=杭州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=厦门, 出发时间=None, 出发地=杭州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=厦门, 出发时间=None, 出发地=杭州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请帮我查询从上海飞往广州的所有航班，并帮我预定明天和后天的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=广州, 出发城市=上海, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=广州, 出发时间=None, 出发地=上海, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=广州, 出发时间=None, 出发地=上海, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询从杭州飞往厦门的所有航班，并帮我预定一张下周三和周五的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=厦门, 出发城市=杭州, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=厦门, 出发时间=None, 出发地=杭州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=厦门, 出发时间=None, 出发地=杭州, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查询从武汉飞往长沙的所有航班，并帮我预定一张下周二和周四的机票",
+                "state": "查询所有航班信息(出发时间=None, 目的城市=长沙, 出发城市=武汉, 出发机场=None, 到达机场=None, 到达时间=None) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 买机票(目的地=长沙, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=[ToFill], 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None)"
+            }
+        ]
+    }
+]

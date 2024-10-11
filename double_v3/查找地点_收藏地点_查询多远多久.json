@@ -1,0 +1,1430 @@
+[
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "图书馆",
+                "state": "查找地点(目标地=图书馆, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用同程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "购物中心",
+                "state": "查找地点(目标地=购物中心, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用穷游旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=穷游旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=穷游旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用去哪儿旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用驴妈妈旅游app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "植物园",
+                "state": "查找地点(目标地=植物园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "图书馆",
+                "state": "查找地点(目标地=图书馆, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用同程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "购物中心",
+                "state": "查找地点(目标地=购物中心, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用穷游旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=穷游旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=穷游旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用去哪儿旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用驴妈妈旅游app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "植物园",
+                "state": "查找地点(目标地=植物园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "书店",
+                "state": "查找地点(目标地=书店, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用穷游网app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=穷游网app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=穷游网app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用同程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "游泳馆",
+                "state": "查找地点(目标地=游泳馆, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用去哪儿旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "图书馆",
+                "state": "查找地点(目标地=图书馆, 应用名称=去哪儿旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用驴妈妈旅游查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "购物中心",
+                "state": "查找地点(目标地=购物中心, 应用名称=驴妈妈旅游) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "书店",
+                "state": "查找地点(目标地=书店, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用去哪儿旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用驴妈妈旅游app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "购物中心",
+                "state": "查找地点(目标地=购物中心, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "游泳馆",
+                "state": "查找地点(目标地=游泳馆, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "图书馆",
+                "state": "查找地点(目标地=图书馆, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用穷游网app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=穷游网app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "书店",
+                "state": "查找地点(目标地=书店, 应用名称=穷游网app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用同程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用去哪儿旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "游泳馆",
+                "state": "查找地点(目标地=游泳馆, 应用名称=去哪儿旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用驴妈妈旅游查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=驴妈妈旅游) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请用携程旅行帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=飞猪旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请用途牛旅行帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "图书馆",
+                "state": "查找地点(目标地=图书馆, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=马蜂窝旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请用艺龙旅行帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用同程旅行帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请用穷游网帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=穷游网) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "书店",
+                "state": "查找地点(目标地=书店, 应用名称=穷游网) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用去哪儿旅行帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用驴妈妈旅游app帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "请用携程旅行帮我查找一个地点，并把查找到的第一个地点收藏起来，如果收藏成功，再帮我查一下从这里到那儿需要多久。",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "购物中心",
+                "state": "查找地点(目标地=购物中心, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "图书馆",
+                "state": "查找地点(目标地=图书馆, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用穷游网app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=穷游网app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "书店",
+                "state": "查找地点(目标地=书店, 应用名称=穷游网app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用同程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用去哪儿旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "游泳馆",
+                "state": "查找地点(目标地=游泳馆, 应用名称=去哪儿旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用驴妈妈旅游查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=驴妈妈旅游) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "书店",
+                "state": "查找地点(目标地=书店, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用穷游网app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=穷游网app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=穷游网app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=穷游网app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=穷游网app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用同程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "游泳馆",
+                "state": "查找地点(目标地=游泳馆, 应用名称=同程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=同程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=同程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用去哪儿旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "购物中心",
+                "state": "查找地点(目标地=购物中心, 应用名称=去哪儿旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用驴妈妈旅游查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=驴妈妈旅游) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "图书馆",
+                "state": "查找地点(目标地=图书馆, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用去哪儿旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "购物中心",
+                "state": "查找地点(目标地=购物中心, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用驴妈妈旅游app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "健身房",
+                "state": "查找地点(目标地=健身房, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "游乐场",
+                "state": "查找地点(目标地=游乐场, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "植物园",
+                "state": "查找地点(目标地=植物园, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "公园",
+                "state": "查找地点(目标地=公园, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "咖啡馆",
+                "state": "查找地点(目标地=咖啡馆, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "图书馆",
+                "state": "查找地点(目标地=图书馆, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用马蜂窝旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "餐厅",
+                "state": "查找地点(目标地=餐厅, 应用名称=马蜂窝旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=马蜂窝旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=马蜂窝旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用艺龙旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "电影院",
+                "state": "查找地点(目标地=电影院, 应用名称=艺龙旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=艺龙旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=艺龙旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用去哪儿旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "动物园",
+                "state": "查找地点(目标地=动物园, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用驴妈妈旅游app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "购物中心",
+                "state": "查找地点(目标地=购物中心, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用携程旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "海滩",
+                "state": "查找地点(目标地=海滩, 应用名称=携程旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=携程旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=携程旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用飞猪旅行app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "游乐园",
+                "state": "查找地点(目标地=游乐园, 应用名称=飞猪旅行app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=飞猪旅行app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=飞猪旅行app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用途牛旅行查找一个地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "植物园",
+                "state": "查找地点(目标地=植物园, 应用名称=途牛旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=途牛旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=途牛旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我用去哪儿旅行查找地点，并用它把查找到的第一个地点收藏，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "您需要查找的地点是？"
+            },
+            {
+                "user": "博物馆",
+                "state": "查找地点(目标地=博物馆, 应用名称=去哪儿旅行) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=去哪儿旅行) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=去哪儿旅行, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "用驴妈妈旅游app帮我查找一个地点，再用它收藏查找到的第一个地点，如果收藏成功的话，再帮我用它查一下去那儿需要多久",
+                "state": "查找地点(目标地=None, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": "需要查找的地点是？"
+            },
+            {
+                "user": "酒吧",
+                "state": "查找地点(目标地=酒吧, 应用名称=驴妈妈旅游app) THEN 收藏地点(收藏地点类型=[ToFill], 应用名称=驴妈妈旅游app) THEN system.if(收藏成功) THEN 查询多远多久(应用名称=驴妈妈旅游app, 出发地=None, 目的地=[ToFill], 多远多久类型=None, 交通工具类型=None)",
+                "assistant": null
+            }
+        ]
+    }
+]

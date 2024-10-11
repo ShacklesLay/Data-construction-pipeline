@@ -1,0 +1,911 @@
+[
+    {
+        "history": [
+            {
+                "user": "查下上海明天的天气，如果天气不错的话，帮我订下去上海的机票和浦东新区的丽思卡尔顿酒店，明天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=丽思卡尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=浦东新区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州后天的天气，如果天气晴朗的话，帮我订下去广州的机票和天河区的希尔顿酒店，后天入住，大后天退房",
+                "state": "查天气(城市=广州, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=希尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=天河区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下北京今天的天气，如果天气不错的话，帮我订下去北京的机票和朝阳区的万豪酒店，今天入住，后天退房",
+                "state": "查天气(城市=北京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=北京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=万豪酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=朝阳区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳今天的天气，如果天气晴朗的话，帮我订下去深圳的机票和福田区的香格里拉酒店，今天入住，后天退房",
+                "state": "查天气(城市=深圳, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=香格里拉酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=福田区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都今天的天气，如果天气不错的话，帮我订下去成都的机票和锦江区的洲际酒店，今天入住，后天退房",
+                "state": "查天气(城市=成都, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=洲际酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=锦江区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州今天的天气，如果天气晴朗的话，帮我订下去杭州的机票和西湖区的喜来登酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=喜来登酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=西湖区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉今天的天气，如果天气不错的话，帮我订下去武汉的机票和汉口区的万达瑞华酒店，今天入住，后天退房",
+                "state": "查天气(城市=武汉, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=万达瑞华酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=汉口区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆今天的天气，如果天气晴朗的话，帮我订下去重庆的机票和渝中区的威斯汀酒店，今天入住，后天退房",
+                "state": "查天气(城市=重庆, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=威斯汀酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=渝中区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的机票和碑林区的凯悦酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=凯悦酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=碑林区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京今天的天气，如果天气晴朗的话，帮我订下去南京的机票和玄武区的金陵饭店，今天入住，后天退房",
+                "state": "查天气(城市=南京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=金陵饭店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=玄武区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下上海明天的天气，如果天气不错的话，帮我订下去上海的机票和市中心的丽思卡尔顿酒店，明天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=丽思卡尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州后天的天气，如果天气晴朗的话，帮我订下去广州的机票和市中心的四季酒店，后天入住，大后天退房",
+                "state": "查天气(城市=广州, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=四季酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都今天的天气，如果天气不错的话，帮我订下去成都的机票和市中心的香格里拉酒店，今天入住，后天退房",
+                "state": "查天气(城市=成都, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=香格里拉酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳明天的天气，如果天气晴朗的话，帮我订下去深圳的机票和市中心的万豪酒店，明天入住，后天退房",
+                "state": "查天气(城市=深圳, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=后天, 酒店名称=万豪酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州后天的天气，如果天气不错的话，帮我订下去杭州的机票和市中心的希尔顿酒店，后天入住，大后天退房",
+                "state": "查天气(城市=杭州, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=希尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京今天的天气，如果天气晴朗的话，帮我订下去南京的机票和市中心的洲际酒店，今天入住，后天退房",
+                "state": "查天气(城市=南京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=洲际酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉明天的天气，如果天气不错的话，帮我订下去武汉的机票和市中心的喜来登酒店，明天入住，后天退房",
+                "state": "查天气(城市=武汉, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=后天, 酒店名称=喜来登酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆后天的天气，如果天气晴朗的话，帮我订下去重庆的机票和市中心的威斯汀酒店，后天入住，大后天退房",
+                "state": "查天气(城市=重庆, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=威斯汀酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的机票和市中心的皇冠假日酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=皇冠假日酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下长沙明天的天气，如果天气晴朗的话，帮我订下去长沙的机票和市中心的凯悦酒店，明天入住，后天退房",
+                "state": "查天气(城市=长沙, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=后天, 酒店名称=凯悦酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下上海明天的天气，如果天气不错的话，帮我订下去上海的机票和市中心的丽思卡尔顿酒店，明天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=丽思卡尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下北京今天的天气，如果天气晴朗的话，帮我订下去北京的机票和市中心的万豪酒店，今天入住，后天退房",
+                "state": "查天气(城市=北京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=北京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=万豪酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州今天的天气，如果天气不错的话，帮我订下去广州的机票和市中心的香格里拉酒店，今天入住，后天退房",
+                "state": "查天气(城市=广州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=香格里拉酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳今天的天气，如果天气晴朗的话，帮我订下去深圳的机票和市中心的希尔顿酒店，今天入住，后天退房",
+                "state": "查天气(城市=深圳, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=希尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都今天的天气，如果天气不错的话，帮我订下去成都的机票和市中心的洲际酒店，今天入住，后天退房",
+                "state": "查天气(城市=成都, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=洲际酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州今天的天气，如果天气晴朗的话，帮我订下去杭州的机票和市中心的四季酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=四季酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京今天的天气，如果天气不错的话，帮我订下去南京的机票和市中心的金陵饭店，今天入住，后天退房",
+                "state": "查天气(城市=南京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=金陵饭店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉今天的天气，如果天气晴朗的话，帮我订下去武汉的机票和市中心的万达瑞华酒店，今天入住，后天退房",
+                "state": "查天气(城市=武汉, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=万达瑞华酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的机票和市中心的威斯汀酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=威斯汀酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆今天的天气，如果天气晴朗的话，帮我订下去重庆的机票和市中心的喜来登酒店，今天入住，后天退房",
+                "state": "查天气(城市=重庆, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=喜来登酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下上海明天的天气，如果天气不错的话，帮我订下去上海的机票和浦东区的格林豪泰酒店，明天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=格林豪泰酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=浦东区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州后天的天气，如果天气晴朗的话，帮我订下去广州的机票和天河区的如家酒店，后天入住，大后天退房",
+                "state": "查天气(城市=广州, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=如家酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=天河区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都今天的天气，如果天气不错的话，帮我订下去成都的机票和锦江区的7天酒店，今天入住，后天退房",
+                "state": "查天气(城市=成都, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=7天酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=锦江区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳今天的天气，如果天气晴朗的话，帮我订下去深圳的机票和福田区的汉庭酒店，今天入住，后天退房",
+                "state": "查天气(城市=深圳, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=汉庭酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=福田区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州今天的天气，如果天气不错的话，帮我订下去杭州的机票和西湖区的速8酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=速8酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=西湖区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京今天的天气，如果天气晴朗的话，帮我订下去南京的机票和玄武区的锦江之星酒店，今天入住，后天退房",
+                "state": "查天气(城市=南京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=锦江之星酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=玄武区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉今天的天气，如果天气不错的话，帮我订下去武汉的机票和江汉区的如家酒店，今天入住，后天退房",
+                "state": "查天气(城市=武汉, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=如家酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=江汉区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆今天的天气，如果天气晴朗的话，帮我订下去重庆的机票和渝中区的7天酒店，今天入住，后天退房",
+                "state": "查天气(城市=重庆, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=7天酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=渝中区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的机票和碑林区的汉庭酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=汉庭酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=碑林区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下长沙今天的天气，如果天气晴朗的话，帮我订下去长沙的机票和芙蓉区的如家酒店，今天入住，后天退房",
+                "state": "查天气(城市=长沙, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=如家酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=芙蓉区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下上海明天的天气，如果天气不错的话，帮我订下去上海的机票和浦东区的丽思卡尔顿酒店，明天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=丽思卡尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=浦东区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州后天的天气，如果天气晴朗的话，帮我订下去广州的机票和天河区的四季酒店，后天入住，大后天退房",
+                "state": "查天气(城市=广州, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=四季酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=天河区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都今天的天气，如果天气不错的话，帮我订下去成都的机票和锦江区的香格里拉酒店，今天入住，后天退房",
+                "state": "查天气(城市=成都, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=香格里拉酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=锦江区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳今天的天气，如果天气晴朗的话，帮我订下去深圳的机票和福田区的万豪酒店，今天入住，后天退房",
+                "state": "查天气(城市=深圳, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=万豪酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=福田区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州今天的天气，如果天气不错的话，帮我订下去杭州的机票和西湖区的希尔顿酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=希尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=西湖区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉今天的天气，如果天气晴朗的话，帮我订下去武汉的机票和江汉区的洲际酒店，今天入住，后天退房",
+                "state": "查天气(城市=武汉, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=洲际酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=江汉区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京今天的天气，如果天气不错的话，帮我订下去南京的机票和玄武区的喜来登酒店，今天入住，后天退房",
+                "state": "查天气(城市=南京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=喜来登酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=玄武区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆今天的天气，如果天气晴朗的话，帮我订下去重庆的机票和渝中区的威斯汀酒店，今天入住，后天退房",
+                "state": "查天气(城市=重庆, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=威斯汀酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=渝中区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的机票和碑林区的皇冠假日酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=皇冠假日酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=碑林区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下长沙今天的天气，如果天气晴朗的话，帮我订下去长沙的机票和芙蓉区的万达文华酒店，今天入住，后天退房",
+                "state": "查天气(城市=长沙, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=万达文华酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=芙蓉区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下上海明天的天气，如果天气不错的话，帮我订下去上海的机票和外滩附近的酒店，明天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=外滩附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下北京后天的天气，如果天气晴朗的话，帮我订下去北京的机票和故宫附近的酒店，后天入住，大后天退房",
+                "state": "查天气(城市=北京, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=北京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=故宫附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州今天的天气，如果天气不错的话，帮我订下去广州的机票和珠江新城的酒店，今天入住，后天退房",
+                "state": "查天气(城市=广州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=珠江新城, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都明天的天气，如果天气晴朗的话，帮我订下去成都的机票和春熙路的酒店，明天入住，大后天退房",
+                "state": "查天气(城市=成都, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=春熙路, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳后天的天气，如果天气不错的话，帮我订下去深圳的机票和福田区的酒店，后天入住，大后天退房",
+                "state": "查天气(城市=深圳, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=福田区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州今天的天气，如果天气晴朗的话，帮我订下去杭州的机票和西湖边的酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=西湖边, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京明天的天气，如果天气不错的话，帮我订下去南京的机票和夫子庙附近的酒店，明天入住，大后天退房",
+                "state": "查天气(城市=南京, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=夫子庙附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉后天的天气，如果天气晴朗的话，帮我订下去武汉的机票和江汉路的酒店，后天入住，大后天退房",
+                "state": "查天气(城市=武汉, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=江汉路, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的机票和钟楼附近的酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=钟楼附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆明天的天气，如果天气晴朗的话，帮我订下去重庆的机票和解放碑附近的酒店，明天入住，大后天退房",
+                "state": "查天气(城市=重庆, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=解放碑附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下北京明天的天气，如果天气不错的话，帮我订下去北京的CA1234航班和市中心的华天酒店，明天入住，大后天退房",
+                "state": "查天气(城市=北京, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=北京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CA1234, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=华天酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下上海后天的天气，如果天气晴朗的话，帮我订下去上海的CZ5678航班和市中心的锦江酒店，后天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CZ5678, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=锦江酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州今天的天气，如果天气不错的话，帮我订下去广州的CZ1234航班和市中心的白云酒店，今天入住，后天退房",
+                "state": "查天气(城市=广州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CZ1234, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=白云酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳明天的天气，如果天气晴朗的话，帮我订下去深圳的MU4567航班和市中心的香格里拉酒店，明天入住，大后天退房",
+                "state": "查天气(城市=深圳, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=MU4567, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=香格里拉酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都后天的天气，如果天气不错的话，帮我订下去成都的CA7890航班和市中心的喜来登酒店，后天入住，大后天退房",
+                "state": "查天气(城市=成都, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CA7890, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=喜来登酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州今天的天气，如果天气晴朗的话，帮我订下去杭州的CZ2345航班和市中心的西湖酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CZ2345, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=西湖酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京明天的天气，如果天气不错的话，帮我订下去南京的MU3456航班和市中心的金陵酒店，明天入住，大后天退房",
+                "state": "查天气(城市=南京, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=MU3456, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=金陵酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉后天的天气，如果天气晴朗的话，帮我订下去武汉的CA6789航班和市中心的汉口酒店，后天入住，大后天退房",
+                "state": "查天气(城市=武汉, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CA6789, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=汉口酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的CZ7890航班和市中心的钟楼酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CZ7890, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=钟楼酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆明天的天气，如果天气晴朗的话，帮我订下去重庆的MU8901航班和市中心的解放碑酒店，明天入住，大后天退房",
+                "state": "查天气(城市=重庆, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=MU8901, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=解放碑酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "帮我查一下上海明天的天气，如果天气不错的话，帮我订一张从上海到北京的机票，航班号CA1501，还有一家靠近故宫的酒店，明天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=北京, 出发时间=None, 出发地=上海, 仓位类型=None, 航班号=CA1501, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=靠近故宫, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下广州后天的天气，如果天气晴朗的话，帮我订一张从广州到深圳的机票，航班号CZ3002，还有一家在福田区的酒店，后天入住，大后天退房",
+                "state": "查天气(城市=广州, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=广州, 仓位类型=None, 航班号=CZ3002, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=福田区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下成都今天的天气，如果天气不错的话，帮我订一张从成都到重庆的机票，航班号3U8820，还有一家在解放碑附近的酒店，今天入住，后天退房",
+                "state": "查天气(城市=成都, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=成都, 仓位类型=None, 航班号=3U8820, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=解放碑附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下深圳今天的天气，如果天气好的话，帮我订一张从深圳到上海的机票，航班号CZ3551，还有一家在浦东新区的酒店，今天入住，后天退房",
+                "state": "查天气(城市=深圳, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气好) THEN 买机票(目的地=上海, 出发时间=None, 出发地=深圳, 仓位类型=None, 航班号=CZ3551, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=浦东新区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下杭州今天的天气，如果天气不错的话，帮我订一张从杭州到北京的机票，航班号CA1566，还有一家在王府井附近的酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=北京, 出发时间=None, 出发地=杭州, 仓位类型=None, 航班号=CA1566, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=王府井附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下南京今天的天气，如果天气好的话，帮我订一张从南京到广州的机票，航班号CZ3872，还有一家在天河区的酒店，今天入住，后天退房",
+                "state": "查天气(城市=南京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气好) THEN 买机票(目的地=广州, 出发时间=None, 出发地=南京, 仓位类型=None, 航班号=CZ3872, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=天河区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下武汉今天的天气，如果天气不错的话，帮我订一张从武汉到上海的机票，航班号MU2501，还有一家在徐汇区的酒店，今天入住，后天退房",
+                "state": "查天气(城市=武汉, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=上海, 出发时间=None, 出发地=武汉, 仓位类型=None, 航班号=MU2501, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=徐汇区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下西安今天的天气，如果天气好的话，帮我订一张从西安到成都的机票，航班号CA4194，还有一家在春熙路附近的酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气好) THEN 买机票(目的地=成都, 出发时间=None, 出发地=西安, 仓位类型=None, 航班号=CA4194, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=春熙路附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下长沙今天的天气，如果天气不错的话，帮我订一张从长沙到深圳的机票，航班号CZ3997，还有一家在福田区的酒店，今天入住，后天退房",
+                "state": "查天气(城市=长沙, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=长沙, 仓位类型=None, 航班号=CZ3997, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=福田区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查一下青岛今天的天气，如果天气好的话，帮我订一张从青岛到北京的机票，航班号CA1572，还有一家在王府井附近的酒店，今天入住，后天退房",
+                "state": "查天气(城市=青岛, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气好) THEN 买机票(目的地=北京, 出发时间=None, 出发地=青岛, 仓位类型=None, 航班号=CA1572, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=None, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=王府井附近, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下上海明天的天气，如果天气不错的话，帮我订下去上海的机票和浦东新区的丽思卡尔顿酒店，明天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=丽思卡尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=浦东新区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州后天的天气，如果天气晴朗的话，帮我订下去广州的机票和天河区的希尔顿酒店，后天入住，大后天退房",
+                "state": "查天气(城市=广州, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=希尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=天河区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都今天的天气，如果天气不错的话，帮我订下去成都的机票和锦江区的香格里拉酒店，今天入住，后天退房",
+                "state": "查天气(城市=成都, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=香格里拉酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=锦江区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳今天的天气，如果天气晴朗的话，帮我订下去深圳的机票和福田区的万豪酒店，今天入住，后天退房",
+                "state": "查天气(城市=深圳, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=万豪酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=福田区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州今天的天气，如果天气不错的话，帮我订下去杭州的机票和西湖区的四季酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=四季酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=西湖区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京今天的天气，如果天气晴朗的话，帮我订下去南京的机票和玄武区的洲际酒店，今天入住，后天退房",
+                "state": "查天气(城市=南京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=洲际酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=玄武区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉今天的天气，如果天气不错的话，帮我订下去武汉的机票和江汉区的喜来登酒店，今天入住，后天退房",
+                "state": "查天气(城市=武汉, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=喜来登酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=江汉区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆今天的天气，如果天气晴朗的话，帮我订下去重庆的机票和渝中区的威斯汀酒店，今天入住，后天退房",
+                "state": "查天气(城市=重庆, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=威斯汀酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=渝中区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的机票和碑林区的凯悦酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=凯悦酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=碑林区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下长沙今天的天气，如果天气晴朗的话，帮我订下去长沙的机票和芙蓉区的瑞吉酒店，今天入住，后天退房",
+                "state": "查天气(城市=长沙, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=长沙, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=None, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=瑞吉酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=芙蓉区, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下北京明天的天气，如果天气不错的话，帮我订下去北京的CA1234航班和市中心的华天酒店，明天入住，大后天退房",
+                "state": "查天气(城市=北京, 日期=明天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=北京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CA1234, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=明天, 退房日期=大后天, 酒店名称=华天酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下上海后天的天气，如果天气晴朗的话，帮我订下去上海的CZ5678航班和市中心的锦江酒店，后天入住，大后天退房",
+                "state": "查天气(城市=上海, 日期=后天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=上海, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CZ5678, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=后天, 退房日期=大后天, 酒店名称=锦江酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下广州今天的天气，如果天气不错的话，帮我订下去广州的CZ1234航班和市中心的白云酒店，今天入住，后天退房",
+                "state": "查天气(城市=广州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=广州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CZ1234, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=白云酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下深圳今天的天气，如果天气晴朗的话，帮我订下去深圳的MU4567航班和市中心的香格里拉酒店，今天入住，后天退房",
+                "state": "查天气(城市=深圳, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=深圳, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=MU4567, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=香格里拉酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下成都今天的天气，如果天气不错的话，帮我订下去成都的CA7890航班和市中心的希尔顿酒店，今天入住，后天退房",
+                "state": "查天气(城市=成都, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=成都, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CA7890, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=希尔顿酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下杭州今天的天气，如果天气晴朗的话，帮我订下去杭州的MU1234航班和市中心的西湖酒店，今天入住，后天退房",
+                "state": "查天气(城市=杭州, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=杭州, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=MU1234, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=西湖酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下南京今天的天气，如果天气不错的话，帮我订下去南京的CZ5678航班和市中心的金陵酒店，今天入住，后天退房",
+                "state": "查天气(城市=南京, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=南京, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CZ5678, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=金陵酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下武汉今天的天气，如果天气晴朗的话，帮我订下去武汉的MU4567航班和市中心的汉口酒店，今天入住，后天退房",
+                "state": "查天气(城市=武汉, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=武汉, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=MU4567, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=汉口酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下西安今天的天气，如果天气不错的话，帮我订下去西安的CA7890航班和市中心的钟楼酒店，今天入住，后天退房",
+                "state": "查天气(城市=西安, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气不错) THEN 买机票(目的地=西安, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=CA7890, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=钟楼酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下重庆今天的天气，如果天气晴朗的话，帮我订下去重庆的MU1234航班和市中心的解放碑酒店，今天入住，后天退房",
+                "state": "查天气(城市=重庆, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气晴朗) THEN 买机票(目的地=重庆, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=MU1234, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=解放碑酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    },
+    {
+        "history": [
+            {
+                "user": "查下哈尔滨今天的天气，如果天气好的话，帮我订下去哈尔滨MU0241的机票和市中心的星蓝酒店，今天入住，后天退房",
+                "state": "查天气(城市=哈尔滨, 日期=今天, 天气类别=None, 时间=None) THEN system.if(天气好) THEN 买机票(目的地=哈尔滨, 出发时间=None, 出发地=None, 仓位类型=None, 航班号=MU0241, 应用名称=None, 航空公司=None, 到达时间=None, 时间条件=None, 价格条件=None, 飞行模式状态=None, 机型=None) AND 订酒店(入住日期=今天, 退房日期=后天, 酒店名称=星蓝酒店, 目的地=None, 应用名称=None, 房间类型=None, 地点条件=市中心, 价格=None, 星级排名=None)",
+                "assistant": null
+            }
+        ]
+    }
+]
